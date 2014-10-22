@@ -18,8 +18,6 @@
 		DE22217119F7D33000BE0992 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE22217019F7D33000BE0992 /* TodayViewController.m */; };
 		DE22217319F7D33000BE0992 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE22217219F7D33000BE0992 /* MainInterface.storyboard */; };
 		DE22217619F7D33000BE0992 /* Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE22216819F7D33000BE0992 /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DE22218019F7D53D00BE0992 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DE22217C19F7D53D00BE0992 /* .gitignore */; };
-		DE22218119F7D53D00BE0992 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DE22217D19F7D53D00BE0992 /* README.md */; };
 		DE22218D19F7D56100BE0992 /* ShareCode.h in Headers */ = {isa = PBXBuildFile; fileRef = DE22218C19F7D56100BE0992 /* ShareCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE22219319F7D56100BE0992 /* ShareCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE22218819F7D56100BE0992 /* ShareCode.framework */; };
 		DE22219C19F7D56100BE0992 /* ShareCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE22219B19F7D56100BE0992 /* ShareCodeTests.m */; };
@@ -114,8 +112,6 @@
 		DE22216F19F7D33000BE0992 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		DE22217019F7D33000BE0992 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		DE22217219F7D33000BE0992 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
-		DE22217C19F7D53D00BE0992 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		DE22217D19F7D53D00BE0992 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE22217E19F7D53D00BE0992 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
 		DE22217F19F7D53D00BE0992 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
 		DE22218819F7D56100BE0992 /* ShareCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -276,8 +272,6 @@
 		DE22217B19F7D53D00BE0992 /* SFHFKeychainUtils */ = {
 			isa = PBXGroup;
 			children = (
-				DE22217C19F7D53D00BE0992 /* .gitignore */,
-				DE22217D19F7D53D00BE0992 /* README.md */,
 				DE22217E19F7D53D00BE0992 /* SFHFKeychainUtils.h */,
 				DE22217F19F7D53D00BE0992 /* SFHFKeychainUtils.m */,
 			);
@@ -498,7 +492,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE22218019F7D53D00BE0992 /* .gitignore in Resources */,
 				DE22214A19F7D31800BE0992 /* Main.storyboard in Resources */,
 				DE22214F19F7D31900BE0992 /* LaunchScreen.xib in Resources */,
 				DE22214C19F7D31800BE0992 /* Images.xcassets in Resources */,
@@ -543,7 +536,6 @@
 			files = (
 				DE22214719F7D31800BE0992 /* ViewController.m in Sources */,
 				DE22214419F7D31800BE0992 /* AppDelegate.m in Sources */,
-				DE22218119F7D53D00BE0992 /* README.md in Sources */,
 				DE22214119F7D31800BE0992 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,11 +15,28 @@
 
 @end
 
+static NSString * sShareUserDefaultGroupName = @"group.com.yangch.shareUserDefault";
+static NSString * sShareKeyChainGroupName    = @"com.yangch.ShareInfoToExtenion";
+
+
 @implementation TodayViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    
+    NSUserDefaults * userDefault = [[NSUserDefaults alloc] initWithSuiteName:sShareUserDefaultGroupName];
+    
+    NSString * strFromUserDefault = [userDefault objectForKey:@"shareDefault"];
+    NSLog(@"read info from share UserDefault:%@", strFromUserDefault);
+    
+    NSString * strKeyChainGroupName = [NSString stringWithFormat:@"%@.%@", [SFHFKeychainUtils bundleSeedID], sShareKeyChainGroupName];
+    
+    NSString * strFromKeyChain = [SFHFKeychainUtils getPasswordForUsername:@"myname" andServiceName:@"com.yangch.shareinfo.test" accessGroup:strKeyChainGroupName error:nil];
+    
+    NSLog(@"read info from share Keychain:%@", strFromKeyChain);
+
 }
 
 - (void)didReceiveMemoryWarning {

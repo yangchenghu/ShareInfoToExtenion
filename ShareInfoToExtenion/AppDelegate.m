@@ -15,8 +15,8 @@
 @end
 
 
-static NSString * strShareUserDefaultGroupName = @"group.com.yangch.shareUserDefault";
-static NSString * strShareKeyChainGroupName    = @"com.yangch.ShareInfoToExtenion";
+static NSString * sShareUserDefaultGroupName = @"group.com.yangch.shareUserDefault";
+static NSString * sShareKeyChainGroupName    = @"com.yangch.ShareInfoToExtenion";
 
 
 @implementation AppDelegate
@@ -25,20 +25,18 @@ static NSString * strShareKeyChainGroupName    = @"com.yangch.ShareInfoToExtenio
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSUserDefaults * userDefault = [[NSUserDefaults alloc] initWithSuiteName:strShareUserDefaultGroupName];
+    NSUserDefaults * userDefault = [[NSUserDefaults alloc] initWithSuiteName:sShareUserDefaultGroupName];
     
     [userDefault setObject:@"Who are u?" forKey:@"shareDefault"];
     
     NSLog(@"save info to share UserDefault");
     
-    NSString * strKeyChainGroupName = [NSString stringWithFormat:@"%@.%@", [SFHFKeychainUtils ]]
+    NSString * strKeyChainGroupName = [NSString stringWithFormat:@"%@.%@", [SFHFKeychainUtils bundleSeedID], sShareKeyChainGroupName];
     
     
+    [SFHFKeychainUtils storeUsername:@"myname" andPassword:@"i am a iOS developer" forServiceName:@"com.yangch.shareinfo.test" updateExisting:YES accessGroup:strKeyChainGroupName error:nil];
     
-    
-    
-    
-    
+    NSLog(@"save info to share keychain");
     
     return YES;
 }
