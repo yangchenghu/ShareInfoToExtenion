@@ -35,6 +35,20 @@
                ReferencedContainer = "container:ShareInfoToExtenion.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DE22219119F7D56100BE0992"
+               BuildableName = "ShareCodeTests.xctest"
+               BlueprintName = "ShareCodeTests"
+               ReferencedContainer = "container:ShareInfoToExtenion.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -43,13 +57,23 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DE22219119F7D56100BE0992"
+               BuildableName = "ShareCodeTests.xctest"
+               BlueprintName = "ShareCodeTests"
+               ReferencedContainer = "container:ShareInfoToExtenion.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE22216719F7D33000BE0992"
-            BuildableName = "Today.appex"
-            BlueprintName = "Today"
+            BlueprintIdentifier = "DE22213A19F7D31800BE0992"
+            BuildableName = "ShareInfoToExtenion.app"
+            BlueprintName = "ShareInfoToExtenion"
             ReferencedContainer = "container:ShareInfoToExtenion.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

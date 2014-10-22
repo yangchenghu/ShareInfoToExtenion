@@ -8,15 +8,38 @@
 
 #import "AppDelegate.h"
 
+#import "SFHFKeychainUtils.h"
+
 @interface AppDelegate ()
 
 @end
+
+
+static NSString * strShareUserDefaultGroupName = @"group.com.yangch.shareUserDefault";
+static NSString * strShareKeyChainGroupName    = @"com.yangch.ShareInfoToExtenion";
+
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSUserDefaults * userDefault = [[NSUserDefaults alloc] initWithSuiteName:strShareUserDefaultGroupName];
+    
+    [userDefault setObject:@"Who are u?" forKey:@"shareDefault"];
+    
+    NSLog(@"save info to share UserDefault");
+    
+    NSString * strKeyChainGroupName = [NSString stringWithFormat:@"%@.%@", [SFHFKeychainUtils ]]
+    
+    
+    
+    
+    
+    
+    
+    
     return YES;
 }
 

@@ -18,6 +18,17 @@
 		DE22217119F7D33000BE0992 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE22217019F7D33000BE0992 /* TodayViewController.m */; };
 		DE22217319F7D33000BE0992 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE22217219F7D33000BE0992 /* MainInterface.storyboard */; };
 		DE22217619F7D33000BE0992 /* Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE22216819F7D33000BE0992 /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE22218019F7D53D00BE0992 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DE22217C19F7D53D00BE0992 /* .gitignore */; };
+		DE22218119F7D53D00BE0992 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DE22217D19F7D53D00BE0992 /* README.md */; };
+		DE22218D19F7D56100BE0992 /* ShareCode.h in Headers */ = {isa = PBXBuildFile; fileRef = DE22218C19F7D56100BE0992 /* ShareCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE22219319F7D56100BE0992 /* ShareCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE22218819F7D56100BE0992 /* ShareCode.framework */; };
+		DE22219C19F7D56100BE0992 /* ShareCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE22219B19F7D56100BE0992 /* ShareCodeTests.m */; };
+		DE22219F19F7D56100BE0992 /* ShareCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE22218819F7D56100BE0992 /* ShareCode.framework */; };
+		DE2221A019F7D56100BE0992 /* ShareCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE22218819F7D56100BE0992 /* ShareCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DE2221A819F7D56900BE0992 /* ShareCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE22218819F7D56100BE0992 /* ShareCode.framework */; };
+		DE2221A919F7D57F00BE0992 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DE22217F19F7D53D00BE0992 /* SFHFKeychainUtils.m */; };
+		DE2221AB19F7D5AA00BE0992 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2221AA19F7D5AA00BE0992 /* Security.framework */; };
+		DE2221AD19F7D5AF00BE0992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2221AC19F7D5AF00BE0992 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,27 @@
 			remoteGlobalIDString = DE22216719F7D33000BE0992;
 			remoteInfo = Today;
 		};
+		DE22219419F7D56100BE0992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE22213319F7D31800BE0992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE22218719F7D56100BE0992;
+			remoteInfo = ShareCode;
+		};
+		DE22219619F7D56100BE0992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE22213319F7D31800BE0992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE22213A19F7D31800BE0992;
+			remoteInfo = ShareInfoToExtenion;
+		};
+		DE22219D19F7D56100BE0992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE22213319F7D31800BE0992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE22218719F7D56100BE0992;
+			remoteInfo = ShareCode;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +79,17 @@
 				DE22217619F7D33000BE0992 /* Today.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2221A419F7D56100BE0992 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DE2221A019F7D56100BE0992 /* ShareCode.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -71,6 +114,20 @@
 		DE22216F19F7D33000BE0992 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		DE22217019F7D33000BE0992 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		DE22217219F7D33000BE0992 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		DE22217C19F7D53D00BE0992 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DE22217D19F7D53D00BE0992 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE22217E19F7D53D00BE0992 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		DE22217F19F7D53D00BE0992 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		DE22218819F7D56100BE0992 /* ShareCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE22218B19F7D56100BE0992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE22218C19F7D56100BE0992 /* ShareCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareCode.h; sourceTree = "<group>"; };
+		DE22219219F7D56100BE0992 /* ShareCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE22219A19F7D56100BE0992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE22219B19F7D56100BE0992 /* ShareCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareCodeTests.m; sourceTree = "<group>"; };
+		DE2221AA19F7D5AA00BE0992 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DE2221AC19F7D5AF00BE0992 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE2221AE19F7D63B00BE0992 /* Today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Today.entitlements; sourceTree = "<group>"; };
+		DE2221AF19F7D67A00BE0992 /* ShareInfoToExtenion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ShareInfoToExtenion.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE22219F19F7D56100BE0992 /* ShareCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +150,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2221A819F7D56900BE0992 /* ShareCode.framework in Frameworks */,
 				DE22216B19F7D33000BE0992 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE22218419F7D56100BE0992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2221AD19F7D5AF00BE0992 /* Foundation.framework in Frameworks */,
+				DE2221AB19F7D5AA00BE0992 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE22218F19F7D56100BE0992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE22219319F7D56100BE0992 /* ShareCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +181,8 @@
 				DE22213D19F7D31800BE0992 /* ShareInfoToExtenion */,
 				DE22215719F7D31900BE0992 /* ShareInfoToExtenionTests */,
 				DE22216C19F7D33000BE0992 /* Today */,
+				DE22218919F7D56100BE0992 /* ShareCode */,
+				DE22219819F7D56100BE0992 /* ShareCodeTests */,
 				DE22216919F7D33000BE0992 /* Frameworks */,
 				DE22213C19F7D31800BE0992 /* Products */,
 			);
@@ -116,6 +194,8 @@
 				DE22213B19F7D31800BE0992 /* ShareInfoToExtenion.app */,
 				DE22215419F7D31900BE0992 /* ShareInfoToExtenionTests.xctest */,
 				DE22216819F7D33000BE0992 /* Today.appex */,
+				DE22218819F7D56100BE0992 /* ShareCode.framework */,
+				DE22219219F7D56100BE0992 /* ShareCodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +203,8 @@
 		DE22213D19F7D31800BE0992 /* ShareInfoToExtenion */ = {
 			isa = PBXGroup;
 			children = (
+				DE2221AF19F7D67A00BE0992 /* ShareInfoToExtenion.entitlements */,
+				DE22217B19F7D53D00BE0992 /* SFHFKeychainUtils */,
 				DE22214219F7D31800BE0992 /* AppDelegate.h */,
 				DE22214319F7D31800BE0992 /* AppDelegate.m */,
 				DE22214519F7D31800BE0992 /* ViewController.h */,
@@ -164,6 +246,8 @@
 		DE22216919F7D33000BE0992 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE2221AC19F7D5AF00BE0992 /* Foundation.framework */,
+				DE2221AA19F7D5AA00BE0992 /* Security.framework */,
 				DE22216A19F7D33000BE0992 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
@@ -172,6 +256,7 @@
 		DE22216C19F7D33000BE0992 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				DE2221AE19F7D63B00BE0992 /* Today.entitlements */,
 				DE22216F19F7D33000BE0992 /* TodayViewController.h */,
 				DE22217019F7D33000BE0992 /* TodayViewController.m */,
 				DE22217219F7D33000BE0992 /* MainInterface.storyboard */,
@@ -188,7 +273,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DE22217B19F7D53D00BE0992 /* SFHFKeychainUtils */ = {
+			isa = PBXGroup;
+			children = (
+				DE22217C19F7D53D00BE0992 /* .gitignore */,
+				DE22217D19F7D53D00BE0992 /* README.md */,
+				DE22217E19F7D53D00BE0992 /* SFHFKeychainUtils.h */,
+				DE22217F19F7D53D00BE0992 /* SFHFKeychainUtils.m */,
+			);
+			path = SFHFKeychainUtils;
+			sourceTree = "<group>";
+		};
+		DE22218919F7D56100BE0992 /* ShareCode */ = {
+			isa = PBXGroup;
+			children = (
+				DE22218C19F7D56100BE0992 /* ShareCode.h */,
+				DE22218A19F7D56100BE0992 /* Supporting Files */,
+			);
+			path = ShareCode;
+			sourceTree = "<group>";
+		};
+		DE22218A19F7D56100BE0992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE22218B19F7D56100BE0992 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE22219819F7D56100BE0992 /* ShareCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE22219B19F7D56100BE0992 /* ShareCodeTests.m */,
+				DE22219919F7D56100BE0992 /* Supporting Files */,
+			);
+			path = ShareCodeTests;
+			sourceTree = "<group>";
+		};
+		DE22219919F7D56100BE0992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE22219A19F7D56100BE0992 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DE22218519F7D56100BE0992 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE22218D19F7D56100BE0992 /* ShareCode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DE22213A19F7D31800BE0992 /* ShareInfoToExtenion */ = {
@@ -199,11 +340,13 @@
 				DE22213819F7D31800BE0992 /* Frameworks */,
 				DE22213919F7D31800BE0992 /* Resources */,
 				DE22217A19F7D33000BE0992 /* Embed App Extensions */,
+				DE2221A419F7D56100BE0992 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				DE22217519F7D33000BE0992 /* PBXTargetDependency */,
+				DE22219E19F7D56100BE0992 /* PBXTargetDependency */,
 			);
 			name = ShareInfoToExtenion;
 			productName = ShareInfoToExtenion;
@@ -245,6 +388,43 @@
 			productReference = DE22216819F7D33000BE0992 /* Today.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		DE22218719F7D56100BE0992 /* ShareCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2221A119F7D56100BE0992 /* Build configuration list for PBXNativeTarget "ShareCode" */;
+			buildPhases = (
+				DE22218319F7D56100BE0992 /* Sources */,
+				DE22218419F7D56100BE0992 /* Frameworks */,
+				DE22218519F7D56100BE0992 /* Headers */,
+				DE22218619F7D56100BE0992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareCode;
+			productName = ShareCode;
+			productReference = DE22218819F7D56100BE0992 /* ShareCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE22219119F7D56100BE0992 /* ShareCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2221A519F7D56100BE0992 /* Build configuration list for PBXNativeTarget "ShareCodeTests" */;
+			buildPhases = (
+				DE22218E19F7D56100BE0992 /* Sources */,
+				DE22218F19F7D56100BE0992 /* Frameworks */,
+				DE22219019F7D56100BE0992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE22219519F7D56100BE0992 /* PBXTargetDependency */,
+				DE22219719F7D56100BE0992 /* PBXTargetDependency */,
+			);
+			name = ShareCodeTests;
+			productName = ShareCodeTests;
+			productReference = DE22219219F7D56100BE0992 /* ShareCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,6 +436,15 @@
 				TargetAttributes = {
 					DE22213A19F7D31800BE0992 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = R866WL6S76;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					DE22215319F7D31900BE0992 = {
 						CreatedOnToolsVersion = 6.1;
@@ -263,6 +452,22 @@
 					};
 					DE22216719F7D33000BE0992 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = R866WL6S76;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					DE22218719F7D56100BE0992 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DE22219119F7D56100BE0992 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DE22213A19F7D31800BE0992;
 					};
 				};
 			};
@@ -282,6 +487,8 @@
 				DE22213A19F7D31800BE0992 /* ShareInfoToExtenion */,
 				DE22215319F7D31900BE0992 /* ShareInfoToExtenionTests */,
 				DE22216719F7D33000BE0992 /* Today */,
+				DE22218719F7D56100BE0992 /* ShareCode */,
+				DE22219119F7D56100BE0992 /* ShareCodeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +498,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE22218019F7D53D00BE0992 /* .gitignore in Resources */,
 				DE22214A19F7D31800BE0992 /* Main.storyboard in Resources */,
 				DE22214F19F7D31900BE0992 /* LaunchScreen.xib in Resources */,
 				DE22214C19F7D31800BE0992 /* Images.xcassets in Resources */,
@@ -312,6 +520,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE22218619F7D56100BE0992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE22219019F7D56100BE0992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -321,6 +543,7 @@
 			files = (
 				DE22214719F7D31800BE0992 /* ViewController.m in Sources */,
 				DE22214419F7D31800BE0992 /* AppDelegate.m in Sources */,
+				DE22218119F7D53D00BE0992 /* README.md in Sources */,
 				DE22214119F7D31800BE0992 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +564,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE22218319F7D56100BE0992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2221A919F7D57F00BE0992 /* SFHFKeychainUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE22218E19F7D56100BE0992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE22219C19F7D56100BE0992 /* ShareCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -353,6 +592,21 @@
 			isa = PBXTargetDependency;
 			target = DE22216719F7D33000BE0992 /* Today */;
 			targetProxy = DE22217419F7D33000BE0992 /* PBXContainerItemProxy */;
+		};
+		DE22219519F7D56100BE0992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE22218719F7D56100BE0992 /* ShareCode */;
+			targetProxy = DE22219419F7D56100BE0992 /* PBXContainerItemProxy */;
+		};
+		DE22219719F7D56100BE0992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE22213A19F7D31800BE0992 /* ShareInfoToExtenion */;
+			targetProxy = DE22219619F7D56100BE0992 /* PBXContainerItemProxy */;
+		};
+		DE22219E19F7D56100BE0992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE22218719F7D56100BE0992 /* ShareCode */;
+			targetProxy = DE22219D19F7D56100BE0992 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,9 +710,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShareInfoToExtenion/ShareInfoToExtenion.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ShareInfoToExtenion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -466,9 +724,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShareInfoToExtenion/ShareInfoToExtenion.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ShareInfoToExtenion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -509,6 +771,10 @@
 		DE22217819F7D33000BE0992 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Today/Today.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -516,6 +782,7 @@
 				INFOPLIST_FILE = Today/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -523,10 +790,91 @@
 		DE22217919F7D33000BE0992 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Today/Today.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Today/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DE2221A219F7D56100BE0992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareCode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE2221A319F7D56100BE0992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ShareCode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE2221A619F7D56100BE0992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareInfoToExtenion.app/ShareInfoToExtenion";
+			};
+			name = Debug;
+		};
+		DE2221A719F7D56100BE0992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareInfoToExtenion.app/ShareInfoToExtenion";
 			};
 			name = Release;
 		};
@@ -549,6 +897,7 @@
 				DE22216019F7D31900BE0992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE22216119F7D31900BE0992 /* Build configuration list for PBXNativeTarget "ShareInfoToExtenionTests" */ = {
 			isa = XCConfigurationList;
@@ -557,12 +906,30 @@
 				DE22216319F7D31900BE0992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE22217719F7D33000BE0992 /* Build configuration list for PBXNativeTarget "Today" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE22217819F7D33000BE0992 /* Debug */,
 				DE22217919F7D33000BE0992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2221A119F7D56100BE0992 /* Build configuration list for PBXNativeTarget "ShareCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2221A219F7D56100BE0992 /* Debug */,
+				DE2221A319F7D56100BE0992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE2221A519F7D56100BE0992 /* Build configuration list for PBXNativeTarget "ShareCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2221A619F7D56100BE0992 /* Debug */,
+				DE2221A719F7D56100BE0992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

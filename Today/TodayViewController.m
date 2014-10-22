@@ -9,6 +9,8 @@
 #import "TodayViewController.h"
 #import <NotificationCenter/NotificationCenter.h>
 
+#import <ShareCode/ShareCode.h>
+
 @interface TodayViewController () <NCWidgetProviding>
 
 @end
