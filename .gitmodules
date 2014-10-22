@@ -1,0 +1,3 @@
+[submodule "ShareInfoToExtenion/SFHFKeychainUtils"]
+	path = ShareInfoToExtenion/SFHFKeychainUtils
+	url = git://github.com/yangchenghu/SFHFKeychainUtils.git
